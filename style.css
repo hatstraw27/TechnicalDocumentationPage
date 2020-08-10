@@ -1,0 +1,45 @@
+:root{
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', Arial, Helvetica, sans-serif; 
+    --background: #eee;
+}
+
+body{
+    --background: #ffffff;
+    background-color: var(--background);
+}
+
+ul{
+    margin-top: 1.5em;
+    list-style: none;
+    padding: 0;
+    font-size: 1rem;
+}
+
+a{
+    text-decoration: none;
+    font-weight: 700;
+    color: #4d4e53;
+}
+
+a:hover,
+a:focus{
+    color: #5D24A6;
+    transition: color .3s;
+    border-bottom: 1px solid #6FA725;
+}
+
+#navbar{
+    text-align: center;
+    line-height: 200%;
+}
+
+header{
+    color: black;
+    font-size: 1.5rem;
+    font-weight: 800;
+    font-variant: small-caps;
+}
+
+
